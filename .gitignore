@@ -49,7 +49,7 @@ data/processed/*
 *.h5
 
 # ─── Reports (CSVs vom Pipeline-Run, behalten) ──────────────────────
-# CSV-Outputs bleiben drin → Prof sieht Ergebnisse direkt
+# CSV-Outputs bleiben drin 
 # reports/*.csv NICHT ignorieren
 
 # ─── Tests / Coverage ───────────────────────────────────────────────
