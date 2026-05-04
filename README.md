@@ -1,16 +1,16 @@
-# Asset Forecasting — DAX, S&P 500 & Bitcoin
+# Asset Forecasting — DAX, Gold & Bitcoin
 
 > **Kursprojekt** „Vertiefung Business Analytics" · THWS · SoSe 2026
 > **Prof.** Dr. Christian Menden
 
-[![CI](https://github.com/<Neco0607>/zeitreihenanalyse-thws/actions/workflows/ci.yml/badge.svg)](https://github.com/<Neco0607>/zeitreihenanalyse-thws/actions)
+[![CI](https://github.com/<Neco0607>/zeitreihenanalyse/actions/workflows/ci.yml/badge.svg)](https://github.com/<Neco0607>/zeitreihenanalyse/actions)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Forschungsfragen
 
 1. **Lassen sich monatliche Asset-Returns mit ARIMA-Modellen prognostizieren**?
-2. **Welches Modell schneidet bei welchem Asset am besten ab** (DAX, S&P 500, Bitcoin)?
+2. **Welches Modell schneidet bei welchem Asset am besten ab** (DAX, Gold, Bitcoin)?
 3. **Bestehen Lead-Lag-Beziehungen** zwischen den Märkten?
 4. Wie gut funktionieren klassische Modelle bei **Strukturbrüchen** (COVID-Crash, Ukraine-Krieg, Krypto-Winter)?
 
@@ -19,7 +19,7 @@
 | Person | Asset | Ticker | Frequenz | Periode |
 |---|---|---|---|---|
 | **Nico Hirsch** | DAX | `^GDAXI` | täglich | 2016–2026 |
-| **Antonio Sicaja** | S&P 500 | `^GSPC` | täglich | 2016–2026 |
+| **Antonio Sicaja** | Gold | `^XAU` | täglich | 2016–2026 |
 | **David Grünwald** | Bitcoin | `BTC-USD` | täglich | 2016–2026 |
 
 Alle Daten via [yfinance](https://github.com/ranaroussi/yfinance), open-end von Yahoo Finance.
