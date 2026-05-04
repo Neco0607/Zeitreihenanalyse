@@ -7,12 +7,13 @@
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## Forschungsfragen
+## Projektbeschreibung
 
-1. **Lassen sich monatliche Asset-Returns mit ARIMA-Modellen prognostizieren**?
-2. **Welches Modell schneidet bei welchem Asset am besten ab** (DAX, Gold, Bitcoin)?
-3. **Bestehen Lead-Lag-Beziehungen** zwischen den Märkten?
-4. Wie gut funktionieren klassische Modelle bei **Strukturbrüchen** (COVID-Crash, Ukraine-Krieg, Krypto-Winter)?
+Dieses Projekt analysiert drei unterschiedliche Finanzzeitreihen — den deutschen Aktienindex **DAX**, den Rohstoff **Gold** und die Kryptowährung **Bitcoin** — mithilfe statistischer Zeitreihenmodelle.
+
+Ziel ist es, mit der **Box-Jenkins-Methode (ARIMA)** geeignete Modelle zu finden, die die zugrundeliegenden datengenerierenden Prozesse abbilden und eine **10-Perioden-Prognose** mit Konfidenzintervallen erstellen.
+
+Dabei werden die drei Assets sowohl **univariat** (jedes Asset einzeln) als auch **multivariat** (alle zusammen) analysiert und verschiedene Modelle anhand geeigneter Metriken (MAE, RMSE, MAPE) verglichen.
 
 ## Team & Zeitreihen
 
