@@ -3,7 +3,7 @@
 > **Kursprojekt** „Vertiefung Business Analytics" · THWS · SoSe 2026
 > **Prof.** Dr. Christian Menden
 
-[![CI](https://github.com/<Neco0607>/Zeitreihenanalyse/actions/workflows/ci.yml/badge.svg)](https://github.com/<Neco0607>/Zeitreihenanalyse/actions)
+[![CI](https://github.com/Neco0607/Zeitreihenanalyse/actions/workflows/ci.yml/badge.svg)](https://github.com/Neco0607/Zeitreihenanalyse/actions)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
