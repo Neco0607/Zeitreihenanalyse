@@ -71,24 +71,12 @@ zeitreihenanalyse-thws/
 │   ├── data/load.py               # yfinance-Loader (cached)
 │   ├── features/transform.py      # Returns, Box-Cox
 │   ├── models/
-│   │   ├── pipeline.py            # Auto-Selection
-│   │   └── multivariate.py        # VAR + Granger
 │   ├── evaluation/
-│   │   ├── metrics.py             # MAE, RMSE, MAPE, sMAPE, MASE
-│   │   └── dm_test.py             # Diebold-Mariano-Test
-│   └── visualization/plots.py
-├── reports/
-│   ├── figures/                   # Alle Plots
-│   ├── results_holdout.csv
-│   ├── results_cv.csv
-│   ├── best_models.csv
-│   └── granger.csv
 ├── tests/                         # pytest
 ├── dashboard.py                   # Plotly-Dash App
 ├── run.py                         # End-to-End Reproduktion
 ├── requirements.txt
 ├── .gitignore
-├── .pre-commit-config.yaml
 ├── CONTRIBUTING.md
 └── README.md
 ```
