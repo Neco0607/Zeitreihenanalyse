@@ -3,7 +3,7 @@
 > **Kursprojekt** „Vertiefung Business Analytics" · THWS · SoSe 2026
 > **Prof.** Dr. Christian Menden
 
-[![CI](https://github.com/<USER>/zeitreihenanalyse-thws/actions/workflows/ci.yml/badge.svg)](https://github.com/<USER>/zeitreihenanalyse-thws/actions)
+[![CI](https://github.com/<Neco0607>/zeitreihenanalyse-thws/actions/workflows/ci.yml/badge.svg)](https://github.com/<Neco0607>/zeitreihenanalyse-thws/actions)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -18,9 +18,9 @@
 
 | Person | Asset | Ticker | Frequenz | Periode |
 |---|---|---|---|---|
-| **Nico Hirsch** | DAX | `^GDAXI` | täglich | 2015–2026 |
-| **Antonio Sicaja** | S&P 500 | `^GSPC` | täglich | 2015–2026 |
-| **David Grünwald** | Bitcoin | `BTC-USD` | täglich | 2015–2026 |
+| **Nico Hirsch** | DAX | `^GDAXI` | täglich | 2016–2026 |
+| **Antonio Sicaja** | S&P 500 | `^GSPC` | täglich | 2016–2026 |
+| **David Grünwald** | Bitcoin | `BTC-USD` | täglich | 2016–2026 |
 
 Alle Daten via [yfinance](https://github.com/ranaroussi/yfinance), open-end von Yahoo Finance.
 
