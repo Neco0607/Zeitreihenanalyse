@@ -44,8 +44,7 @@ Vollständige Tabellen: [`reports/results_cv.csv`](reports/results_cv.csv)
 ## Quickstart
 
 ```bash
-git clone git@github.com:<USER>/zeitreihenanalyse-thws.git
-cd zeitreihenanalyse-thws
+git clone git@github.com:Neco0607/Zeitreihenanalyse.git
 
 python -m venv .venv
 source .venv/bin/activate           # Windows: .venv\Scripts\activate
