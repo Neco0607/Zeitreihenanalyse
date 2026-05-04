@@ -3,7 +3,7 @@
 > **Kursprojekt** „Vertiefung Business Analytics" · THWS · SoSe 2026
 > **Prof.** Dr. Christian Menden
 
-[![CI](https://github.com/<Neco0607>/zeitreihenanalyse/actions/workflows/ci.yml/badge.svg)](https://github.com/<Neco0607>/zeitreihenanalyse/actions)
+[![CI](https://github.com/<Neco0607>/Zeitreihenanalyse/actions/workflows/ci.yml/badge.svg)](https://github.com/<Neco0607>/Zeitreihenanalyse/actions)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -29,7 +29,7 @@ Alle Daten via [yfinance](https://github.com/ranaroussi/yfinance), open-end von 
 | Asset | Bestes Modell | RMSE (Return) | MAPE | MASE |
 |---|---|---|---|---|
 | DAX     | _xxx_         | _xxx_ | _xx %_ | _x.xx_ |
-| S&P 500 | _xxx_         | _xxx_ | _xx %_ | _x.xx_ |
+| Gold | _xxx_         | _xxx_ | _xx %_ | _x.xx_ |
 | Bitcoin | _xxx_         | _xxx_ | _xx %_ | _x.xx_ |
 
 Vollständige Tabellen: [`reports/results_cv.csv`](reports/results_cv.csv)
