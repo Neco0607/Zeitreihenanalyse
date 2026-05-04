@@ -19,8 +19,8 @@
 | Person | Asset | Ticker | Frequenz | Periode |
 |---|---|---|---|---|
 | **Nico Hirsch** | DAX | `^GDAXI` | monatlich | 2015–2026 |
-| **David Grünwald** | S&P 500 | `^GSPC` | monatlich | 2015–2026 |
-| **Antonio Sicaja** | Bitcoin | `BTC-USD` | monatlich | 2015–2026 |
+| **Antonio Sicaja** | S&P 500 | `^GSPC` | monatlich | 2015–2026 |
+| **David Grünwald** | Bitcoin | `BTC-USD` | monatlich | 2015–2026 |
 
 Alle Daten via [yfinance](https://github.com/ranaroussi/yfinance), open-end von Yahoo Finance.
 
