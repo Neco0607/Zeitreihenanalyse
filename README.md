@@ -96,7 +96,4 @@ zeitreihenanalyse-thws/
 
 Python 3.11 · pandas · numpy · statsmodels · pmdarima · scikit-learn · scipy · matplotlib · seaborn · plotly · dash · yfinance · pytest · ruff · black
 
-## Lizenz
-
-MIT — siehe [LICENSE](LICENSE)
 
