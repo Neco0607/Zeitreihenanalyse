@@ -6,9 +6,9 @@ bei Prof. Dr. Christian Menden – Technische Hochschule Würzburg-Schweinfurt
 ## Gruppe
 | Person | Zeitreihe | Ticker |
 |--------|-----------|--------|
-| Antonio | Apple Aktie | AAPL |
-| Person 2 | Microsoft Aktie | MSFT |
-| Person 3 | Google Aktie | GOOGL |
+| Nico | Apple Aktie | AAPL |
+| Antonio | Microsoft Aktie | MSFT |
+| David | Google Aktie | GOOGL |
 
 ## Projektstruktur
 Zeitreihenanalyse/
