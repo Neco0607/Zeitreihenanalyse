@@ -1,4 +1,4 @@
-# 📈 Asset Forecasting — DAX, S&P 500 & Bitcoin
+# Asset Forecasting — DAX, S&P 500 & Bitcoin
 
 > **Kursprojekt** „Vertiefung Business Analytics" · THWS · SoSe 2026
 > **Prof.** Dr. Christian Menden
@@ -7,14 +7,14 @@
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## 🎯 Forschungsfragen
+## Forschungsfragen
 
 1. **Lassen sich monatliche Asset-Returns mit ARIMA-Modellen prognostizieren** — oder bestätigt sich die schwache Form der Effizienzmarkthypothese empirisch?
 2. **Welches Modell schneidet bei welchem Asset am besten ab** (DAX, S&P 500, Bitcoin)?
 3. **Bestehen Lead-Lag-Beziehungen** zwischen den Märkten (Granger-Kausalität, VAR)?
 4. Wie gut funktionieren klassische Modelle bei **Strukturbrüchen** (COVID-Crash, Ukraine-Krieg, Krypto-Winter)?
 
-## 👥 Team & Zeitreihen
+## Team & Zeitreihen
 
 | Person | Asset | Ticker | Frequenz | Periode |
 |---|---|---|---|---|
@@ -24,7 +24,7 @@
 
 Alle Daten via [yfinance](https://github.com/ranaroussi/yfinance), open-end von Yahoo Finance.
 
-## 📊 Hauptergebnisse
+## Hauptergebnisse
 
 | Asset | Bestes Modell | RMSE (Return) | MAPE | MASE |
 |---|---|---|---|---|
@@ -34,14 +34,14 @@ Alle Daten via [yfinance](https://github.com/ranaroussi/yfinance), open-end von 
 
 📂 Vollständige Tabellen: [`reports/results_cv.csv`](reports/results_cv.csv)
 
-## 🔑 Schlüsselerkenntnisse (Vorschau)
+## Schlüsselerkenntnisse (Vorschau)
 
 - **Returns sind annähernd White Noise** → ARIMA findet kaum Struktur. Das ist *die empirische Bestätigung* der schwachen EMH, nicht ein Modellversagen.
 - **Volatilität ist hingegen klar geclustert** (Engle-ARCH-Test signifikant) → GARCH-Erweiterung ist angemessen.
 - **Granger-Kausalität:** S&P 500 führt den DAX (US-Markt → europäischer Markt um einen Monat).
 - **Bitcoin korreliert seit 2020 stärker mit Aktien** → entzaubert das „Diversifier"-Narrativ.
 
-## 🚀 Quickstart
+## Quickstart
 
 ```bash
 git clone git@github.com:<USER>/zeitreihenanalyse-thws.git
@@ -64,7 +64,7 @@ python dashboard.py                 # → http://localhost:8050
 jupyter lab
 ```
 
-## 📁 Projektstruktur
+## Projektstruktur
 
 ```
 zeitreihenanalyse-thws/
@@ -100,7 +100,7 @@ zeitreihenanalyse-thws/
 └── README.md
 ```
 
-## 🛠 Methodik
+## Methodik
 
 **Univariat (Box-Jenkins) — pro Asset:**
 1. Stationaritätsprüfung mit ADF + KPSS (auf Preisen → I(1) → Returns betrachten)
@@ -116,10 +116,10 @@ zeitreihenanalyse-thws/
 - Modellvergleich statistisch via **Diebold-Mariano-Test**
 - **VAR-Modell** über alle drei Returns + **Granger-Kausalitätsmatrix**
 
-## 📚 Tech Stack
+## Tech Stack
 
 Python 3.11 · pandas · numpy · statsmodels · pmdarima · scikit-learn · scipy · matplotlib · seaborn · plotly · dash · yfinance · pytest · ruff · black
 
-## 📜 Lizenz
+## Lizenz
 
 MIT — siehe [LICENSE](LICENSE)
