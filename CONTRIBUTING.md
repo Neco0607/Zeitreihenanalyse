@@ -1,6 +1,6 @@
 # Zusammenarbeit — Team-Regeln
 
-## 🌳 Branching-Strategie (GitHub Flow, vereinfacht)
+## Branching-Strategie (GitHub Flow, vereinfacht)
 
 | Branch | Zweck |
 |---|---|
@@ -14,7 +14,7 @@
 - Bei Fertigstellung Pull Request → mind. 1 Reviewer → Merge in `develop`
 - `develop` → `main` nur bei stabilen Meilensteinen (vor Präsentationen)
 
-## 📝 Commit-Konvention (Conventional Commits)
+## Commit-Konvention (Conventional Commits)
 
 ```
 <type>(<scope>): <kurze Beschreibung>
@@ -39,7 +39,7 @@ docs(readme): Quickstart mit Conda-Variante ergänzt
 test(metrics): MASE bei naive=0 abgesichert
 ```
 
-## 🔍 Pull Requests
+## Pull Requests
 
 - **Titel** im Conventional-Format
 - **Beschreibung** mit:
@@ -50,7 +50,7 @@ test(metrics): MASE bei naive=0 abgesichert
 - **CI muss grün sein** vor Merge
 - Reviewer-Kommentare adressieren, dann mergen
 
-## 🧹 Code-Style
+## Code-Style
 
 - **PEP 8** mit max. 100 Zeichen pro Zeile
 - **Docstrings** (Google-Style) für jede öffentliche Funktion
@@ -63,21 +63,21 @@ pip install pre-commit
 pre-commit install
 ```
 
-## 📓 Notebook-Regeln
+## Notebook-Regeln
 
 - Vor Commit: **„Restart Kernel & Run All"** — muss durchlaufen
 - **Outputs DRIN lassen** — der Prof will Ergebnisse sehen
 - Klare **Markdown-Sections** zwischen Code-Blöcken
 - Keine privaten Pfade oder API-Keys committen
 
-## 📊 Daten-Regeln
+## Daten-Regeln
 
 - **Keine Files >50 MB** ins Repo
 - Rohdaten in `data/raw/` — gitignored, dafür Quelle in README dokumentieren
 - Aufbereitete Daten in `data/processed/` (klein genug) gerne ins Repo
 - Datenquellen-Links + Lizenz-Info in `data/SOURCES.md`
 
-## 🎯 Vor jeder Präsentation
+## Vor jeder Präsentation
 
 - [ ] `develop` → `main` mergen
 - [ ] `python run.py` läuft komplett durch
