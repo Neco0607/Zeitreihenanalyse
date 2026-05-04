@@ -9,9 +9,9 @@
 
 ## Forschungsfragen
 
-1. **Lassen sich monatliche Asset-Returns mit ARIMA-Modellen prognostizieren** — oder bestätigt sich die schwache Form der Effizienzmarkthypothese empirisch?
+1. **Lassen sich monatliche Asset-Returns mit ARIMA-Modellen prognostizieren**?
 2. **Welches Modell schneidet bei welchem Asset am besten ab** (DAX, S&P 500, Bitcoin)?
-3. **Bestehen Lead-Lag-Beziehungen** zwischen den Märkten (Granger-Kausalität, VAR)?
+3. **Bestehen Lead-Lag-Beziehungen** zwischen den Märkten?
 4. Wie gut funktionieren klassische Modelle bei **Strukturbrüchen** (COVID-Crash, Ukraine-Krieg, Krypto-Winter)?
 
 ## Team & Zeitreihen
