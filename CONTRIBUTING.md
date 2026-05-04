@@ -57,11 +57,6 @@ test(metrics): MASE bei naive=0 abgesichert
 - **Type Hints** wo es Klarheit schafft
 - `black` + `ruff` automatisch via pre-commit
 
-### Setup pre-commit (einmalig pro Person)
-```bash
-pip install pre-commit
-pre-commit install
-```
 
 ## Notebook-Regeln
 
