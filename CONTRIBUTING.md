@@ -1,6 +1,6 @@
 # Zusammenarbeit — Team-Regeln
 
-## Branching-Strategie (GitHub Flow, vereinfacht)
+## Branching-Strategie (GitHub Flow)
 
 | Branch | Zweck |
 |---|---|
@@ -66,7 +66,7 @@ pre-commit install
 ## Notebook-Regeln
 
 - Vor Commit: **„Restart Kernel & Run All"** — muss durchlaufen
-- **Outputs DRIN lassen** — der Prof will Ergebnisse sehen
+- **Outputs DRIN lassen** 
 - Klare **Markdown-Sections** zwischen Code-Blöcken
 - Keine privaten Pfade oder API-Keys committen
 
