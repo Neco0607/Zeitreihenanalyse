@@ -67,19 +67,11 @@ jupyter lab
 ```
 Zeitreihenanalyse/
 ├── data/
+│   ├── interim/
+│   ├── processed/
 │   └── raw/                            # CSV-Cache von yfinance (gitignored)
-├── docs/
-│   └── gold_analyse.md                 # Detaillierte Analysedokumentation Gold
 ├── notebooks/
-│   ├── 02_box_jenkins_antonio.ipynb    # Box-Jenkins Analyse Gold (Antonio Sicaja)
-│   └── ...                             # weitere Notebooks (DAX, Bitcoin)
-├── reports/
-│   ├── results_cv.csv                  # Modellvergleich alle Assets
-│   ├── gold_eda.png                    # EDA-Plot Gold
-│   ├── gold_acf_pacf.png               # ACF/PACF Gold
-│   ├── gold_residuals.png              # Residualdiagnostik Gold
-│   ├── gold_forecast.png               # Prognose-Plot Gold
-│   └── gold_model_comparison.png       # Modellvergleich Gold
+│   └── Gold_Zeitreihe.ipynb            # Box-Jenkins Analyse Gold (Antonio Sicaja)
 ├── requirements.txt
 ├── .gitignore
 ├── CONTRIBUTING.md
