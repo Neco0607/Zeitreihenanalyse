@@ -69,9 +69,15 @@ Zeitreihenanalyse/
 ├── data/
 │   ├── interim/
 │   ├── processed/
-│   └── raw/                            # CSV-Cache von yfinance (gitignored)
+│   └── raw/                            # CSV-Rohdaten (gitignored)
 ├── notebooks/
-│   └── Gold_Zeitreihe.ipynb            # Box-Jenkins Analyse Gold (Antonio Sicaja)
+│   ├── Bitcoin_Zeitreihe.ipynb         # Box-Jenkins Analyse Bitcoin (David Grünwald)
+│   ├── DAX_Zeitreihe.ipynb             # Box-Jenkins Analyse DAX (Nico Hirsch)
+│   ├── Gold_Zeitreihe.ipynb            # Box-Jenkins Analyse Gold (Antonio Sicaja)
+│   └── VAR_Analyse.ipynb               # Multivariate Analyse — alle drei Assets (Nico Hirsch)
+├── reports/
+│   ├── results_cv.csv                  # Modellvergleich alle Assets
+│   └── results_var.csv                 # VAR-Modell Ergebnisse
 ├── requirements.txt
 ├── .gitignore
 ├── CONTRIBUTING.md
