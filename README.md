@@ -35,7 +35,7 @@ Alle Daten via [yfinance](https://github.com/ranaroussi/yfinance), automatisch g
 
 | Asset | Bestes Modell | MAE | RMSE | MAPE | MASE |
 |---|---|---|---|---|---|
-| DAX | *ausstehend* | *—* | *—* | *—* | *—* |
+| **DAX** | **ARIMA(3,1,2)** | **2.10** | **2.55** | **4.872 %** | **8.896** |
 | **Gold** | **ARIMA(0,1,2)** | **211.49** | **244.51** | **4.421 %** | **14.942** |
 | Bitcoin | *ausstehend* | *—* | *—* | *—* | *—* |
 
