@@ -91,9 +91,9 @@ Zeitreihenanalyse/
 Die Analyse folgt dem klassischen **Box-Jenkins-Verfahren** in vier Schritten:
 
 1. **Identifikation** — Stationaritätsprüfung via ADF- & KPSS-Test, visuelle ACF/PACF-Analyse zur Bestimmung von p, d, q
-2. **Schätzung** — Gittersuche über ARIMA(p, d, q) mit Modellwahl nach AIC/BIC
-3. **Diagnostik** — Residualanalyse: Ljung-Box-Test, Jarque-Bera-Test, Q-Q-Plot
-4. **Prognose** — 10-Perioden-Forecast mit 95%-Konfidenzintervall, Backtesting auf 60 Handelstagen
+2. **Schätzung** — Gittersuche über ARIMA(p, d, q) mit Modellwahl nach AIC
+4. **Diagnostik** — Residualanalyse: Ljung-Box-Test, Jarque-Bera-Test, Q-Q-Plot
+5. **Prognose** — 10-Perioden-Forecast mit 95%-Konfidenzintervall, Backtesting auf 60 Handelstagen
 
 ---
 
