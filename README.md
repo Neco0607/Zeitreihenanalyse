@@ -37,7 +37,7 @@ Alle Daten via [yfinance](https://github.com/ranaroussi/yfinance), automatisch g
 |---|---|---|---|---|---|
 | **DAX** | **ARIMA(3,1,2)** | **2.10** | **2.55** | **4.872 %** | **8.896** |
 | **Gold** | **ARIMA(0,1,2)** | **211.49** | **244.51** | **4.421 %** | **14.942** |
-| **Bitcoin** | **ARIMA(3,1,2)** | **3,489.75** | **3,968.05** | **4.88 %** | **—** |
+| **Bitcoin** | **ARIMA(3,1,2)** | **3,489.75** | **3,968.05** | **4.88 %** | **5.403** |
 
 > Vollständige Tabellen: [`reports/results_cv.csv`](reports/results_cv.csv)  
 > Detaillierte Gold-Analyse: [`docs/gold_analyse.md`](docs/gold_analyse.md)
